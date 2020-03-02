@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*clase del body*/
+.gastronomia-body {
+	background-image: url(../img/fondo/cocina5.jpg);
+	background-attachment: fixed;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+/*clase del contenedor*/
+.contenedor {
+	background-color: #9C9C9C;
+	opacity: 0.85;
+}
+
+/*clase del header*/
+#encabezado {
+	color: white;
+}
+
+.nombre {
+	text-align: left;
+}
+
+.slogan {
+	text-align: right;
+}
+
+/*clase para el contenedor*/
+.secciones {
+	border-top: solid 2px white;
+}
+
+/*clase de busqueda*/
+#busqueda {
+	background-color:white;
+}
+/*colores de busqueda*/
+.button.success {
+    background-color: #6CA5B5;
+    color: #FFFFFF;
+     }
+
+     .button.success:hover, .button.success:focus {
+      background-color: #4390A5;
+      color: #FFFFFF; }
+
+       .button.hollow.success {
+      border: 1px solid #4390A5;
+      color: #FFFFFF; }
+
+      .button.hollow.success:hover, .button.hollow.success:focus {
+        border-color: #4390A5;
+        color: #FFFFFF; }
+
+        /*clase de titulo*/
+.titulo {
+	color: #050505;
+}
+
+ /*clase de fecha*/
+.fecha {
+	color: #2B5B69;
+}
+
+ /*clase de fecha*/
+.color {
+	color: #040404;
+}
+
+/*clase de contenido*/
+.contenido {
+	background-color: #88B8C6;
+}
+
+.comentarios {
+	border-top: solid 2px white;
+}
+
+.usuario {
+	background-color: lightgreen;
+}
+
+/*clase de imagenes*/

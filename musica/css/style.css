@@ -1,0 +1,105 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*Color de fondo de header*/
+.row {
+	background: #FFFFFFFF;
+	}
+
+/*Clase para dispositivos medianos*/
+@media (max-width: 991px) {
+	.busqueda {
+		display: none;
+	}
+	
+	.contenido {
+		margin: 5px 10px;
+	}
+	
+	.logo-img {
+		margin: 0px 10px;
+		text-align: center;
+	}
+
+	/* Clase para darle estilos a los Iconos Sociales*/
+.social-img {
+	border-radius: 10px;
+}
+	
+	.redes-sociales {
+		text-align: center;
+	}
+}
+
+
+/*Clase para dispositivos grandes*/
+@media (min-width: 991px) {	
+	.redes-sociales {
+		text-align: right;
+	}
+	
+	.logo-img {
+		text-align: left;
+		}
+
+	.separacion {
+	padding-top: 20px;
+}
+.titulo {
+	padding-top: 15px;
+	color: black;
+}
+.texto {
+	text-align: justify;
+	font-size: 13px;
+	color: black;
+	}
+
+.image{
+	width: 100%;
+}
+
+.tg-copyright {
+	background: red;
+	text-align: center
+}
+	}
+
+/* Clase para darle estilos a los Iconos Sociales*/
+
+
+/*Clase para darle estilos a el contenido*/
+.img-formulario {
+	width: 30px;
+	border-radius: 5px;
+}
+
+/*Clase para darle estilos a el contenido*/
+.separacion {
+	padding-top: 20px;
+}
+
+/*Clase para darle estilos al texto*/
+.titulo {
+	padding-top: 15px;
+	color: black;
+}
+
+/*Clase para darle estilos al texto*/
+.texto {
+	text-align: justify;
+	font-size: 13px;
+	color: black;
+	}
+
+.image{
+	width: 100%;
+}
+
+.tg-copyright {
+	background: red;
+	text-align: center
+}
+
+
